@@ -1,9 +1,8 @@
-.container-fluid.debug {
-	border: 2px solid black;
-}
-.header-bg {
-    background-color: #2C3E50;
-    color: white;
+
+ul,
+ol,
+menu {
+    list-style: none;
 }
 
 .hero {
@@ -12,8 +11,51 @@
     min-height: 400px;
 }
 .star {
-    line-height: 30px;;
+    
     color: white;
+    display: block;
+    margin: 0 auto;
+}
+.start__title {
+    margin: 25px auto;
+    display: block;
+}
+
+.start__menu {
+    margin-right: 0px;
+    align-items: center;
+}
+
+.figure {
+    width:250px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+ .star::after {
+	content: '';
+	display: block;
+	margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 20px;
+	width: 200px;
+}
+
+.star::before {
+	content: '';
+	display: block;
+	margin: 0 auto; 
+    border: 2px solid white;
+    border-radius: 20px;
+	width: 200px;
 }
 
 
+.container-fluid.debug {
+	border: 2px solid black;
+}
+
+.header-bg {
+    background-color: #2C3E50;
+    color: white;
+}
