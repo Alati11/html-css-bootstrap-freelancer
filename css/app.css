@@ -4,6 +4,13 @@ ol,
 menu {
     list-style: none;
 }
+a {
+    color: white;
+}
+
+.icon-menu {
+    line-height: 4.5em;
+}
 
 .hero {
     color: white;
@@ -11,11 +18,14 @@ menu {
     min-height: 400px;
 }
 .star {
-    
     color: white;
     display: block;
     margin: 0 auto;
 }
+.star-black {
+    color: black;
+}
+
 .start__title {
     margin: 25px auto;
     display: block;
@@ -24,6 +34,7 @@ menu {
 .start__menu {
     margin-right: 0px;
     align-items: center;
+    display: none;
 }
 
 .figure {
@@ -49,6 +60,23 @@ menu {
     border-radius: 20px;
 	width: 200px;
 }
+.star-black::after {
+    content: '';
+    display: block;
+	margin: 0 auto; 
+    border: 2px solid black;
+    border-radius: 20px;
+	width: 200px;
+}
+
+.star-black::before {
+    content: '';
+    display: block;
+	margin: 0 auto; 
+    border: 2px solid black;
+    border-radius: 20px;
+	width: 200px;
+}
 
 
 .container-fluid.debug {
@@ -59,3 +87,36 @@ menu {
     background-color: #2C3E50;
     color: white;
 }
+
+
+@media (min-width: 576px) {
+    .start__menu {
+        display: flex;
+        gap:10px;
+    }
+    .icon-menu {
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+  
+
+ }
+
+
+@media (min-width: 992px) { 
+
+}
+
+
+@media (min-width: 1200px) { 
+
+ }
+
+
+@media (min-width: 1400px) {
+
+ }
