@@ -1,8 +1,19 @@
 .container-fluid.debug {
 	border: 2px solid black;
 }
-.container-fluid-start {
+.header-bg {
     background-color: #2C3E50;
     color: white;
-    
 }
+
+.hero {
+    color: white;
+    background-color: #53BC9D;
+    min-height: 400px;
+}
+.star {
+    line-height: 30px;;
+    color: white;
+}
+
+
