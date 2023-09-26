@@ -9,13 +9,13 @@ a {
 }
 
 .icon-menu {
-    line-height: 4.5em;
+    font-size: 30px;
 }
 
 .hero, .about {
     color: white;
     background-color: #53BC9D;
-    min-height: 400px;
+    
 }
 .star {
     color: white;
@@ -87,6 +87,41 @@ a {
     background-color: #2C3E50;
     color: white;
 }
+.download-button {
+    background-color: #53BC9D;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid white;
+    width: 160px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px ;
+    line-height: 2px;
+} 
+
+/*form*/
+.name, .email, .number, .textarea {
+    width: 900px;
+    color:  gray;
+    border-style: solid;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-color:gray;
+    text-align: left;
+}
+.send {
+    width: 100px;
+    height: 40px;
+    background-color: #53BC9D;
+    font-size: 20px;
+    color: white;
+    border-color: #53BC9D;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
 
 @media (min-width: 576px) {
     .start__menu {
