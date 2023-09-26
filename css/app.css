@@ -12,7 +12,7 @@ a {
     line-height: 4.5em;
 }
 
-.hero {
+.hero, .about {
     color: white;
     background-color: #53BC9D;
     min-height: 400px;
@@ -88,7 +88,6 @@ a {
     color: white;
 }
 
-
 @media (min-width: 576px) {
     .start__menu {
         display: flex;
@@ -120,3 +119,19 @@ a {
 @media (min-width: 1400px) {
 
  }
+
+/* .container,
+.container-xl {
+	border: 1px solid black;
+}  */
+
+/* .card {
+	background-color: aquamarine;
+	padding: 20px;
+	min-height: 50px;
+	border-radius: 20px;
+}  */
+
+.card_concert .card-body {
+	padding: 40px;
+}
